@@ -7,8 +7,8 @@ interface WelcomePageProps {
   handleGoProducts: () => void;
 }
 
-const ribeye = Ribeye({weight: '400'})
-const roboto = Roboto({weight: '400'})
+const ribeye = Ribeye({ weight: '400', subsets: ['latin'] });
+const roboto = Roboto({ weight: '400', subsets: ['latin'] });
 
 export const WelcomePage = ({ showPopup, setShowPopup, handleGoProducts }: WelcomePageProps) => {
   return (

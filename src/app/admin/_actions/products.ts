@@ -52,7 +52,7 @@ export async function addProduct(prevState: unknown, formData: FormData) {
       throw new Error(`Failed to upload image: ${error.message}`);
     }
 
-    return `https://pzjbegnvpltcaukzdoij.supabase.co/storage/v1/object/public/products/${filePath}`;
+    return `https://proedmnqezyznamssyuv.supabase.co/storage/v1/object/public/products/${filePath}`;
   };
 
   const [image1Url, image2Url, image3Url] = await Promise.all([
