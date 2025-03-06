@@ -1,4 +1,3 @@
-import Image from "next/image"
 import GoBackButton from "./GoBackButton"
 interface HeaderProductsProps {
     goBackTo: string
