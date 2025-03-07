@@ -16,7 +16,7 @@ export default function HomePage() {
   }
 
   return (
-    <main className="h-full flex flex-col md:flex-row md:min-h-screen">
+    <main className="bg-violet h-full flex flex-col md:flex-row md:min-h-screen">
       <WelcomePage
         showPopup={showPopup}
         setShowPopup={setShowPopup}
